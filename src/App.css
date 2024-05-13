@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +24,9 @@
 .App-link {
   color: #61dafb;
 }
+#skills_parent{
+  height: 830px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+html{
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+  width: 0.4rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #f2ebe9;
+}
+::-webkit-scrollbar-thumb{
+background-color: #F40A34;
+border-radius: 1rem;  
+}
+#skills_grid{
+grid-template-columns: repeat(5,1fr);
+}
+
+@media only screen and (max-width: 800px) {
+
+  #skills_grid{
+    grid-template-columns: repeat(1,1fr);
+    width: 40%;
+    margin: auto;
+     
+    }
+#navbar{
+  display: none;
+}
+#skills_parent{
+  height: auto;
+}
+
 }

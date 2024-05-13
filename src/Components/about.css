@@ -1,0 +1,21 @@
+.about_text{
+    gap:150px
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .about_text{
+        flex-direction: column;
+        text-align: center;
+        gap:20px
+    }
+    .about_text div{
+        width: 100%;
+        margin: auto;
+        
+        
+    }
+
+
+}

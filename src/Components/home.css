@@ -1,0 +1,95 @@
+ .text_ani{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s infinite alternate;
+    border-right: 6px solid #F40A34;
+ }
+ @keyframes text {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 18ch;
+    }
+ }
+ #home{
+    height:700px;
+    Width:100%;
+    background-color :#d4f1f9;
+ }
+ .pranav{
+    font-size: 70px;
+ }
+ .full_stack{
+    font-size: 40px;
+ }
+ .hello{
+    font-size: 25px;
+ }
+ .text_but{
+    width: 100%;
+    
+    
+ }
+ @media only screen and (max-width: 1100px) {
+  
+
+    
+    .homee{
+        height:600px;
+    }
+    .pranav{
+        font-size: 20px;
+    }
+    .full_stack{
+        font-size:18px;
+    }
+    .resume{
+        text-align: start;
+    }
+    .text_but{
+        text-align: Start;
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 60%;
+        
+    }
+   .hello{
+    font-size: 20px;
+   }
+
+
+  }
+ @media only screen and (max-width: 800px) {
+  
+
+    #flex_image{
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+    .homee{
+        height:600px;
+    }
+    .pranav{
+        font-size: 20px;
+    }
+    .full_stack{
+        font-size:18px;
+    }
+    .resume{
+        text-align: start;
+    }
+    .text_but{
+        text-align: Start;
+        margin-left: 90px;
+        margin-top: 50px;
+        width: 100%;
+        
+    }
+   .hello{
+    font-size: 20px;
+   }
+
+
+  }

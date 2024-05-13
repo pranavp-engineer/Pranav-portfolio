@@ -1,0 +1,24 @@
+
+#work{
+    height: 900px;
+}
+.projects{
+    grid-template-columns: repeat(3,1fr);
+}
+#heading_projects{
+    font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+
+
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #work{
+        height:2300px
+    }
+
+    #heading_projects{
+        font-size: 30px;
+    }
+}
